@@ -1,6 +1,7 @@
 <p align = "center">
   <img width="507" alt="nearbyteswhitebg" src="https://user-images.githubusercontent.com/55860775/146695102-6c4ce60e-cb0f-42bf-9f32-b3ea1b51aebe.png">
 </p>
+
 ## Inspiration
 
 - Imagine you have just landed at an unfamiliar location, you haven’t bought any data plans yet. But looking for somewhere to stay before you continues a journey. What are you going to do if you’re not familiar with the new culture?
