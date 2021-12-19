@@ -1,3 +1,6 @@
+<p align = "center">
+  <img width="507" alt="nearbyteswhitebg" src="https://user-images.githubusercontent.com/55860775/146695102-6c4ce60e-cb0f-42bf-9f32-b3ea1b51aebe.png">
+</p>
 ## Inspiration
 
 - Imagine you have just landed at an unfamiliar location, you haven’t bought any data plans yet. But looking for somewhere to stay before you continues a journey. What are you going to do if you’re not familiar with the new culture?
@@ -39,7 +42,9 @@ Nearbytes asks for user’s location, and then recommend nearby facilities based
 - Filtering and finding details
   Next, we are planning to develop a mobile user interface for a future app. Some mockups can be seen below:
 
-<img width="150" alt="Screen Shot 2021-12-19 at 2 39 09 PM" src="https://user-images.githubusercontent.com/55860775/146694934-6fc7aedc-6cbc-47a2-864a-d1589cc3458b.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 39 26 PM" src="https://user-images.githubusercontent.com/55860775/146694970-c1372bf2-781c-4756-b75e-3d523829fb45.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 39 51 PM" src="https://user-images.githubusercontent.com/55860775/146694975-a934e2a3-f34d-4fc1-bf9a-bc0888e8a0a4.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 40 03 PM" src="https://user-images.githubusercontent.com/55860775/146694983-a5580160-a4b7-402d-9fbc-96dbadc81018.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 40 17 PM" src="https://user-images.githubusercontent.com/55860775/146694984-192aa2e4-dee4-4139-a532-aeb1b3d5626c.png">
+<p align = "center">
+  <img width="150" alt="Screen Shot 2021-12-19 at 2 39 09 PM" src="https://user-images.githubusercontent.com/55860775/146694934-6fc7aedc-6cbc-47a2-864a-d1589cc3458b.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 39 26 PM" src="https://user-images.githubusercontent.com/55860775/146694970-c1372bf2-781c-4756-b75e-3d523829fb45.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 39 51 PM" src="https://user-images.githubusercontent.com/55860775/146694975-a934e2a3-f34d-4fc1-bf9a-bc0888e8a0a4.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 40 03 PM" src="https://user-images.githubusercontent.com/55860775/146694983-a5580160-a4b7-402d-9fbc-96dbadc81018.png"> <img width="154" alt="Screen Shot 2021-12-19 at 2 40 17 PM" src="https://user-images.githubusercontent.com/55860775/146694984-192aa2e4-dee4-4139-a532-aeb1b3d5626c.png">
+</p>
 
 ## How to start the app
 
