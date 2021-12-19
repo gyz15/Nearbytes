@@ -1,0 +1,131 @@
+{
+  "default": {
+    "voiceInfo": {
+      "lang": "en-US",
+      "speaker": "default",
+      "speed": 0.9
+    },
+
+    "phrases": {
+      "hello": {
+        "random": [
+          [{ "text": "Hello" }],
+          [{ "text": "Umm, hello?" }],
+          [{ "text": "Are you there?" }]
+        ]
+      },
+
+      "when_callback": [{ "text": "When can I call you back?" }],
+      "i_said": [{ "text": "I was saying" }],
+      "sorry_wont_call": [
+        { "text": "Sorry if I bothered you, have a nice day! Bye!" }
+      ],
+      "i_will_wait": {
+        "random": [
+          [{ "text": "Okay, I'll wait" }],
+          [{ "text": "Your humble A. I. servant shall wait." }],
+          [{ "text": "Okay, no problem! I'll wait here for you." }]
+        ]
+      },
+
+      "i_can_hear_you": [{ "text": "Yes, I hear you" }],
+      "dont_understand": {
+        "random": [
+          [{ "text": "Sorry, could you say it again?" }],
+          [
+            {
+              "text": "Sorry, the connection dropped for a second. Could you say that again?"
+            }
+          ],
+          [{ "text": "Sorry, I didn't quite catch that." }],
+          [{ "text": "Could you say it one more time?" }]
+        ]
+      },
+      "dont_understand_hangup": [
+        {
+          "text": "I'm sorry I can barely hear you. I'll try to call you later! Bye!"
+        }
+      ],
+      "dont_understand_forward": [
+        {
+          "text": "I'm sorry, let me transfer you to another agent. Please stand by!"
+        }
+      ],
+      "mhm": [{ "text": "Mgm..." }],
+      "yes_i_am_a_robot": [
+        {
+          "text": "Actually I am an advanced AI. Just don't tell my boss or I'll be out of a job."
+        }
+      ],
+      "is_that_all": [{ "text": "Is that all?" }],
+      "repeat_question": [{ "text": "Can you repeat the question, please?" }],
+      "do_you_need_more": {
+        "random": [
+          {
+            "text": "Do you need some recommendation besides this?"
+          },
+          {
+            "text": "I found other as well, would you like to hear them?"
+          },
+          { "text": "Would you like to ask for more recommendation?" }
+        ]
+      },
+      "recommend": {
+        "random": [
+          [
+            { "text": "How about " },
+            { "id": "name", "type": "dynamic" },
+            { "text": " which is located at" },
+            { "id": "street", "type": "dynamic" },
+            { "text": ". Based on your location, it's around " },
+            { "id": "distance_away", "type": "dynamic" },
+            { "text": " away from you. " },
+            { "text": "It has a rating of " },
+            { "id": "ratings", "type": "dynamic" }
+          ],
+          [
+            { "text": "I found one named " },
+            { "id": "name", "type": "dynamic" },
+            { "text": " which has a rating of " },
+            { "id": "ratings", "type": "dynamic" },
+            { "text": ". It's located at " },
+            { "id": "street", "type": "dynamic" },
+            { "text": ", " },
+            { "id": "distance_away", "type": "dynamic" },
+            { "text": " away from your current location." }
+          ],
+          [
+            { "text": "I would recommend " },
+            { "id": "name", "type": "dynamic" },
+            { "text": " which is located at " },
+            { "id": "street", "type": "dynamic" },
+            { "text": ". It has a rating of " },
+            { "id": "ratings", "type": "dynamic" },
+            { "text": ", and it's " },
+            { "id": "distance_away", "type": "dynamic" },
+            { "text": " away from your location." }
+          ]
+        ]
+      }
+    },
+
+    "types": {},
+    "macros": {
+      "hello": {},
+      "when_callback": {},
+      "i_said": {},
+      "sorry_wont_call": {},
+      "i_will_wait": {},
+      "i_can_hear_you": {},
+      "dont_understand": {},
+      "dont_understand_hangup": {},
+      "dont_understand_forward": {},
+      "mhm": {},
+      "yes_i_am_a_robot": {},
+      "is_that_all": {},
+      "repeat_question": {},
+      "do_you_need_more": {},
+      "recommend": {}
+    }
+  }
+}

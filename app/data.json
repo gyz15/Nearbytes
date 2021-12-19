@@ -1,0 +1,156 @@
+{
+  "version": "v2",
+  "intents": {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "yep",
+        "I confirm",
+        "confirmed",
+        "I do",
+        "yeah",
+        "that's right",
+        "of course",
+        "ok"
+      ],
+      "excludes": []
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "no, that's it, thank you",
+        "no thank you!",
+        "incorrect",
+        "I do not",
+        "I don't"
+      ]
+    },
+    "vegan": {
+      "includes": [
+        "I'm a vegan",
+        "I'm a vegetarian",
+        "I do not eat meat",
+        "I'm not having meat",
+        "Are there any foods prepared for vegan?"
+      ]
+    },
+    "noseafood": {
+      "includes": [
+        "I can't eat seafood",
+        "I'm allergic to seafood",
+        "No seafood please",
+        "Everything other than seafood",
+        "I can't have seafood"
+      ]
+    },
+    "restaurant": {
+      "includes": [
+        "What should I get for my dinner tonight?",
+        "I'm finding for a restaurant",
+        "What are the restaurants near me?",
+        "Can you recommend some restaurants near me?",
+        "I'm looking for some food. Are there any restaurants near me?",
+        "Which restaurant should I go later?",
+        "I'd like to check for some restaurants near me.",
+        "Can you recommend me some restaurant?"
+      ],
+      "excludes": []
+    },
+
+    "supermarket": {
+      "includes": [
+        "I'm looking to find groceries",
+        "I'm looking for a neaby supermarket",
+        "I need some groceries",
+        "I'd like to know where the nearest supermarkets are",
+        "The supermarket please",
+        "Somewhere I can get groceries"
+      ],
+      "excludes": []
+    },
+
+    "hotel": {
+      "includes": [
+        "I'm looking for a place to rest.",
+        "Where can I find some hotel?",
+        "Where should I stay tonight?",
+        "Is there any hotel here?",
+        "Can you tell me where is the nearest hotel?",
+        "I would like to stay in a hotel nearby",
+        "Hotel please."
+      ]
+    },
+
+    "wait": {
+      "includes": [
+        "Hold on for a minute",
+        "Wait please",
+        "Give me a second ",
+        "Give me a minute",
+        "Hold on",
+        "Hold on I need to have a look",
+        "Hold the line",
+        "Wait please"
+      ],
+      "excludes": ["Hello"]
+    },
+
+    "repeat": {
+      "includes": [
+        "Can you repeat please",
+        "Sorry, could you say it again",
+        "I didn't hear you ",
+        "I couldn't hear what you said",
+        "Can you repeat please? ",
+        "Please repeat it"
+      ]
+    }
+  },
+
+  "entities": {
+    "city": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "Las Vegas",
+          "synonyms": ["Las Vegas", "Vegas"]
+        },
+        {
+          "value": "Alabama",
+          "synonyms": ["Alabama", "Albama"]
+        },
+        {
+          "value": "California",
+          "synonyms": ["California", "Calfonia"]
+        },
+        {
+          "value": "Florida",
+          "synonyms": ["Florida", "Floor"]
+        },
+        {
+          "value": "Maryland",
+          "synonyms": ["Maryland", "Marry Land"]
+        },
+        {
+          "value": "New York",
+          "synonyms": ["New York", "New"]
+        },
+        {
+          "value": "Montana",
+          "synonyms": ["Montana", "Monte"]
+        }
+      ],
+      "includes": [
+        "I'm at (Las Vegas)[city]",
+        "My location is (California)[city] ",
+        "What are the restaurants available at (New York)[city]?",
+        "I'm looking for some foods in (Maryland)[city]",
+        "(Florida)[city] is where I'm at"
+      ]
+    }
+  }
+}
