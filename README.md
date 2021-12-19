@@ -39,6 +39,12 @@ Nearbytes asks for user’s location, and then recommend nearby facilities based
 - Filtering and finding details
   Next, we are planning to develop a mobile user interface for a future app. Some mockups can be seen below:
 
+<img width="301" alt="Screen Shot 2021-12-19 at 2 39 09 PM" src="https://user-images.githubusercontent.com/55860775/146694934-6fc7aedc-6cbc-47a2-864a-d1589cc3458b.png">
+<img width="308" alt="Screen Shot 2021-12-19 at 2 39 26 PM" src="https://user-images.githubusercontent.com/55860775/146694970-c1372bf2-781c-4756-b75e-3d523829fb45.png">
+<img width="307" alt="Screen Shot 2021-12-19 at 2 39 51 PM" src="https://user-images.githubusercontent.com/55860775/146694975-a934e2a3-f34d-4fc1-bf9a-bc0888e8a0a4.png">
+<img width="308" alt="Screen Shot 2021-12-19 at 2 40 03 PM" src="https://user-images.githubusercontent.com/55860775/146694983-a5580160-a4b7-402d-9fbc-96dbadc81018.png">
+<img width="307" alt="Screen Shot 2021-12-19 at 2 40 17 PM" src="https://user-images.githubusercontent.com/55860775/146694984-192aa2e4-dee4-4139-a532-aeb1b3d5626c.png">
+
 ## How to start the app
 
 1. Replace the API_KEY with your own api key from [Geoapify](https://myprojects.geoapify.com/projects)
