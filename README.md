@@ -28,7 +28,7 @@ Nearbytes asks for user’s location, and then recommend nearby facilities based
 - Lack of experience
   Ryan and I were not very experienced in AI stuff, as you have already know. I thought it’ll be really hard when I was told that the hackathon is about AI stuff. I’m really amazed on how simple to use Dasha. I ran into some silly mistakes and really thanks for the help again provided by @Sreekaran from Dasha.
 - Minimal resources of API
-  It’ll be easy to just use a fully functional API by google (Google Maps API) but we do not choose it at last, as we think that it’ll be costly if we’re planning to let Nearbytes to be free to all users. Instead, we have chosen to use Geoapify as it provides similar API services (that suits our needs for now) while being FREE.
+  It would have been easier to just use the fully functional API by google (Google Maps API) since it even comes with built-in customer review handling, but we choose not to use it as we thought that it would be costly if we’re planning to let Nearbytes be used free of charge. Instead, we have chosen to use Geoapify as it provides similar API services (that suits our needs for now) while being FREE.
 
 ## What we learned
 
